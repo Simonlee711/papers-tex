@@ -1,0 +1,752 @@
+@article{bert,
+  author       = "Jacob Devlin and
+                  Ming{-}Wei Chang and
+                  Kenton Lee and
+                  Kristina Toutanova",
+  title        = "BERT: Pre-training of Deep Bidirectional Transformers for Language
+                  Understanding",
+  journal      = "CoRR",
+  volume       = "abs/1810.04805",
+  year         = "2018",
+  url          = "http://arxiv.org/abs/1810.04805",
+  eprinttype    = "arXiv",
+  eprint       = "1810.04805",
+  timestamp    = "Tue, 30 Oct 2018 20:39:56 +0100",
+  biburl       = "https://dblp.org/rec/journals/corr/abs-1810-04805.bib",
+  bibsource    = "dblp computer science bibliography, https://dblp.org"
+}
+
+@article{med-bert,
+    author = "Rasmy Laila and Xiang Yang and Xie Ziqian and Tao Cui and Zhi Degui",
+    title = "Med-BERT: pretrained contextualized embeddings on large-scale structured electronic health records for disease prediction",
+    journal = "npj Digital Medicine",
+    year = "2021",
+    url = "https://doi.org/10.1038/s41746-021-00455-y"
+}
+
+@article{chief-bert,
+    author = "Chang David and Hong Woo Suk and Taylor Richard Andrew",
+    title = "Generating contextual embeddings for emergency department chief complaints",
+    journal = "JAMIA Open",
+    year = "2020",
+    doi = "10.1093/jamiaopen/ooaa022",
+    url ="https://doi.org/10.1093/jamiaopen/ooaa022",
+    eprint="https://academic.oup.com/jamiaopen/article-pdf/3/2/160/33532968/ooaa022.pdf",
+    pages ="160-166",
+
+}
+
+@inproceedings{roy-pan-2021-incorporating,
+    title = "Incorporating medical knowledge in {BERT} for clinical relation extraction",
+    author = "Arpita R. and Shimei P.",
+    booktitle = "Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing",
+    month = nov,
+    year = "2021",
+    address = "Online and Punta Cana, Dominican Republic",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2021.emnlp-main.435",
+    doi = "10.18653/v1/2021.emnlp-main.435",
+    pages = "5357--5366",
+    abstract = "In recent years pre-trained language models (PLM) such as BERT have proven to be very effective in diverse NLP tasks such as Information Extraction, Sentiment Analysis and Question Answering. Trained with massive general-domain text, these pre-trained language models capture rich syntactic, semantic and discourse information in the text. However, due to the differences between general and specific domain text (e.g., Wikipedia versus clinic notes), these models may not be ideal for domain-specific tasks (e.g., extracting clinical relations). Furthermore, it may require additional medical knowledge to understand clinical text properly. To solve these issues, in this research, we conduct a comprehensive examination of different techniques to add medical knowledge into a pre-trained BERT model for clinical relation extraction. Our best model outperforms the state-of-the-art systems on the benchmark i2b2/VA 2010 clinical relation extraction dataset.",
+}
+
+
+@misc{li_hi-behrt_2021,
+	title = {Hi-{BEHRT}: {Hierarchical} {Transformer}-based model for accurate prediction of clinical events using multimodal longitudinal electronic health records},
+	shorttitle = {Hi-{BEHRT}},
+	url = {http://arxiv.org/abs/2106.11360},
+	abstract = {Electronic health records represent a holistic overview of patients' trajectories. Their increasing availability has fueled new hopes to leverage them and develop accurate risk prediction models for a wide range of diseases. Given the complex interrelationships of medical records and patient outcomes, deep learning models have shown clear merits in achieving this goal. However, a key limitation of these models remains their capacity in processing long sequences. Capturing the whole history of medical encounters is expected to lead to more accurate predictions, but the inclusion of records collected for decades and from multiple resources can inevitably exceed the receptive field of the existing deep learning architectures. This can result in missing crucial, long-term dependencies. To address this gap, we present Hi-BEHRT, a hierarchical Transformer-based model that can significantly expand the receptive field of Transformers and extract associations from much longer sequences. Using a multimodal large-scale linked longitudinal electronic health records, the Hi-BEHRT exceeds the state-of-the-art BEHRT 1\% to 5\% for area under the receiver operating characteristic (AUROC) curve and 3\% to 6\% for area under the precision recall (AUPRC) curve on average, and 3\% to 6\% (AUROC) and 3\% to 11\% (AUPRC) for patients with long medical history for 5-year heart failure, diabetes, chronic kidney disease, and stroke risk prediction. Additionally, because pretraining for hierarchical Transformer is not well-established, we provide an effective end-to-end contrastive pre-training strategy for Hi-BEHRT using EHR, improving its transferability on predicting clinical events with relatively small training dataset.},
+	urldate = {2023-03-29},
+	publisher = {arXiv},
+	author = {Li, Yikuan and Mamouei, Mohammad and Salimi-Khorshidi, Gholamreza and Rao, Shishir and Hassaine, Abdelaali and Canoy, Dexter and Lukasiewicz, Thomas and Rahimi, Kazem},
+	month = jun,
+	year = {2021},
+	note = {arXiv:2106.11360 [cs]},
+	keywords = {Computer Science - Machine Learning},
+	file = {arXiv.org Snapshot:C\:\\Users\\jeffn\\Zotero\\storage\\WYGDUKHD\\2106.html:text/html;Li et al_2021_Hi-BEHRT.pdf:/Users/jeff/Library/CloudStorage/Box-Box/Ipad-share/library/Li et al_2021_Hi-BEHRT.pdf:application/pdf},
+}
+
+@inproceedings{devlin_bert_2019,
+	address = {Minneapolis, Minnesota},
+	title = {{BERT}: {Pre}-training of {Deep} {Bidirectional} {Transformers} for {Language} {Understanding}},
+	url = {http://aclweb.org/anthology/N19-1423},
+	doi = {10.18653/v1/N19-1423},
+	language = {en},
+	urldate = {2021-11-18},
+	booktitle = {Proceedings of the 2019 {Conference} of the {North}},
+	publisher = {Association for Computational Linguistics},
+	author = {Devlin, Jacob and Chang, Ming-Wei and Lee, Kenton and Toutanova, Kristina},
+	year = {2019},
+	pages = {4171--4186},
+}
+
+@article{lentzen_transformer-based_2023,
+	title = {A {Transformer}-{Based} {Model} {Trained} on {Large} {Scale} {Claims} {Data} for {Prediction} of {Severe} {COVID}-19 {Disease} {Progression}},
+	volume = {PP},
+	issn = {2168-2208},
+	doi = {10.1109/JBHI.2023.3288768},
+	abstract = {In situations like the COVID-19 pandemic, healthcare systems are under enormous pressure as they can rapidly collapse under the burden of the crisis. Machine learning (ML) based risk models could lift the burden by identifying patients with a high risk of severe disease progression. Electronic Health Records (EHRs) provide crucial sources of information to develop these models because they rely on routinely collected healthcare data. However, EHR data is challenging for training ML models because it contains irregularly timestamped diagnosis, prescription, and procedure codes. For such data, transformer-based models are promising. We extended the previously published Med-BERT model by including age, sex, medications, quantitative clinical measures, and state information. After pre-training on approximately 988 million EHRs from 3.5 million patients, we developed models to predict Acute Respiratory Manifestations (ARM) risk using the medical history of 80,211 COVID-19 patients. Compared to Random Forests, XGBoost, and RETAIN, our transformer-based models more accurately forecast the risk of developing ARM after COVID-19 infection. We used Integrated Gradients and Bayesian networks to understand the link between the essential features of our model. Finally, we evaluated adapting our model to Austrian in-patient data. Our study highlights the promise of predictive transformer-based models for precision medicine.},
+	language = {eng},
+	journal = {IEEE journal of biomedical and health informatics},
+	author = {Lentzen, Manuel and Linden, Thomas and Veeranki, Sai and Madan, Sumit and Kramer, Diether and Leodolter, Werner and Frohlich, Holger},
+	month = jun,
+	year = {2023},
+	pmid = {37347632},
+}
+
+@misc{shoham_federated_2023,
+	title = {Federated {Learning} of {Medical} {Concepts} {Embedding} using {BEHRT}},
+	url = {http://arxiv.org/abs/2305.13052},
+	abstract = {Electronic Health Records (EHR) data contains medical records such as diagnoses, medications, procedures, and treatments of patients. This data is often considered sensitive medical information. Therefore, the EHR data from the medical centers often cannot be shared, making it difficult to create prediction models using multi-center EHR data, which is essential for such models' robustness and generalizability. Federated Learning (FL) is an algorithmic approach that allows learning a shared model using data in multiple locations without the need to store all data in a central place. An example of a prediction model's task is to predict future diseases. More specifically, the model needs to predict patient's next visit diagnoses, based on current and previous clinical data. Such a prediction model can support care providers in making clinical decisions and even provide preventive treatment. We propose a federated learning approach for learning medical concepts embedding. This pre-trained model can be used for fine-tuning for specific downstream tasks. Our approach is based on an embedding model like BEHRT, a deep neural sequence transduction model for EHR. We train using federated learning, both the Masked Language Modeling (MLM) and the next visit downstream model. We demonstrate our approach on the MIMIC-IV dataset. We compare the performance of a model trained with FL against a model trained on centralized data. We find that our federated learning approach reaches very close to the performance of a centralized model, and it outperforms local models in terms of average precision. We also show that pre-trained MLM improves the model's average precision performance in the next visit prediction task, compared to an MLM model without pre-training. Our code is available at https://github.com/nadavlab/FederatedBEHRT.},
+	urldate = {2023-06-15},
+	publisher = {arXiv},
+	author = {Shoham, Ofir Ben and Rappoport, Nadav},
+	month = may,
+	year = {2023},
+	note = {arXiv:2305.13052 [cs]},
+	keywords = {Computer Science - Artificial Intelligence, Computer Science - Computation and Language, Computer Science - Distributed, Parallel, and Cluster Computing, Computer Science - Machine Learning},
+	file = {arXiv.org Snapshot:C\:\\Users\\jeffn\\Zotero\\storage\\TZLYJ9CM\\2305.html:text/html;Shoham_Rappoport_2023_Federated Learning of Medical Concepts Embedding using BEHRT.pdf:/Users/jeff/Library/CloudStorage/Box-Box/Ipad-share/library/Shoham_Rappoport_2023_Federated Learning of Medical Concepts Embedding using BEHRT.pdf:application/pdf},
+}
+
+@misc{rupp_exbehrt_2023,
+	title = {{ExBEHRT}: {Extended} {Transformer} for {Electronic} {Health} {Records} to {Predict} {Disease} {Subtypes} \& {Progressions}},
+	shorttitle = {{ExBEHRT}},
+	url = {http://arxiv.org/abs/2303.12364},
+	abstract = {In this study, we introduce ExBEHRT, an extended version of BEHRT (BERT applied to electronic health records), and apply different algorithms to interpret its results. While BEHRT considers only diagnoses and patient age, we extend the feature space to several multimodal records, namely demographics, clinical characteristics, vital signs, smoking status, diagnoses, procedures, medications, and laboratory tests, by applying a novel method to unify the frequencies and temporal dimensions of the different features. We show that additional features significantly improve model performance for various downstream tasks in different diseases. To ensure robustness, we interpret model predictions using an adaptation of expected gradients, which has not been previously applied to transformers with EHR data and provides more granular interpretations than previous approaches such as feature and token importances. Furthermore, by clustering the model representations of oncology patients, we show that the model has an implicit understanding of the disease and is able to classify patients with the same cancer type into different risk groups. Given the additional features and interpretability, ExBEHRT can help make informed decisions about disease trajectories, diagnoses, and risk factors of various diseases.},
+	urldate = {2023-06-15},
+	publisher = {arXiv},
+	author = {Rupp, Maurice and Peter, Oriane and Pattipaka, Thirupathi},
+	month = apr,
+	year = {2023},
+	note = {arXiv:2303.12364 [cs]},
+	keywords = {Computer Science - Artificial Intelligence, Computer Science - Machine Learning},
+	file = {arXiv.org Snapshot:C\:\\Users\\jeffn\\Zotero\\storage\\EZXPTIX3\\2303.html:text/html;Rupp et al_2023_ExBEHRT.pdf:/Users/jeff/Library/CloudStorage/Box-Box/Ipad-share/library/Rupp et al_2023_ExBEHRT.pdf:application/pdf},
+}
+
+@article{pang_cehr-bert_nodate,
+	title = {{CEHR}-{BERT}: {Incorporating} temporal information from structured {EHR} data to improve prediction tasks},
+	abstract = {Embedding algorithms are increasingly used to represent clinical concepts in healthcare for improving machine learning tasks such as clinical phenotyping and disease prediction. Recent studies have adapted state-of-the-art bidirectional encoder representations from transformers (BERT) architecture to structured electronic health records (EHR) data for the generation of contextualized concept embeddings, yet do not fully incorporate temporal data across multiple clinical domains. Therefore we developed a new BERT adaptation, CEHR-BERT, to incorporate temporal information using a hybrid approach by augmenting the input to BERT using artificial time tokens, incorporating time, age, and concept embeddings, and introducing a new second learning objective for visit type. CEHR-BERT was trained on a subset of clinical data from Columbia University Irving Medical Center-New York Presbyterian Hospital, which includes 2.4M patients, spanning over three decades, and tested using 4-fold evaluation on the following prediction tasks: hospitalization, death, new heart failure (HF) diagnosis, and HF readmission. Our experiments show that CEHR-BERT outperformed existing state-of-the-art clinical BERT adaptations and baseline models across all 4 prediction tasks in both ROC-AUC and PR-AUC. CEHRBERT also demonstrated strong few-shot learning capability, as our model trained on only 5\% of data outperformed comparison models trained on the entire data set. Ablation studies to better understand the contribution of each time component showed incremental gains with every element, suggesting that CEHR-BERT’s incorporation of artificial time tokens, time/age embeddings with concept embeddings, and the addition of the second learning objective represents a promising approach for future BERTbased clinical embeddings.},
+	language = {en},
+	author = {Pang, Chao and Jiang, Xinzhuo and Kalluri, Krishna S and Spotnitz, Matthew and Chen, RuiJun and Perotte, Adler and Natarajan, Karthik},
+	pages = {22},
+	file = {Pang et al. - CEHR-BERT Incorporating temporal information from.pdf:C\:\\Users\\jeffn\\Zotero\\storage\\FAWMLMNX\\Pang et al. - CEHR-BERT Incorporating temporal information from.pdf:application/pdf},
+}
+
+@article{li_behrt_2020,
+	title = {{BEHRT}: {Transformer} for {Electronic} {Health} {Records}},
+	volume = {10},
+	issn = {2045-2322},
+	shorttitle = {{BEHRT}},
+	url = {http://www.nature.com/articles/s41598-020-62922-y},
+	doi = {10.1038/s41598-020-62922-y},
+	abstract = {Abstract
+            Today, despite decades of developments in medicine and the growing interest in precision healthcare, vast majority of diagnoses happen once patients begin to show noticeable signs of illness. Early indication and detection of diseases, however, can provide patients and carers with the chance of early intervention, better disease management, and efficient allocation of healthcare resources. The latest developments in machine learning (including deep learning) provides a great opportunity to address this unmet need. In this study, we introduce BEHRT: A deep neural sequence transduction model for electronic health records (EHR), capable of simultaneously predicting the likelihood of 301 conditions in one’s future visits. When trained and evaluated on the data from nearly 1.6 million individuals, BEHRT shows a striking improvement of 8.0–13.2\% (in terms of average precision scores for different tasks), over the existing state-of-the-art deep EHR models. In addition to its scalability and superior accuracy, BEHRT enables personalised interpretation of its predictions; its flexible architecture enables it to incorporate multiple heterogeneous concepts (e.g., diagnosis, medication, measurements, and more) to further improve the accuracy of its predictions; its (pre-)training results in disease and patient representations can be useful for future studies (i.e., transfer learning).},
+	language = {en},
+	number = {1},
+	urldate = {2021-11-12},
+	journal = {Scientific Reports},
+	author = {Li, Yikuan and Rao, Shishir and Solares, José Roberto Ayala and Hassaine, Abdelaali and Ramakrishnan, Rema and Canoy, Dexter and Zhu, Yajie and Rahimi, Kazem and Salimi-Khorshidi, Gholamreza},
+	month = dec,
+	year = {2020},
+	pages = {7155},
+	file = {Li et al_2020_BEHRT.pdf:C\:\\Users\\jeffn\\Box\\Zotero-library\\Li et al_2020_BEHRT.pdf:application/pdf},
+}
+
+@article{rasmy_med-bert_2021,
+	title = {Med-{BERT}: pretrained contextualized embeddings on large-scale structured electronic health records for disease prediction},
+	volume = {4},
+	issn = {2398-6352},
+	shorttitle = {Med-{BERT}},
+	url = {http://www.nature.com/articles/s41746-021-00455-y},
+	doi = {10.1038/s41746-021-00455-y},
+	abstract = {Abstract
+            Deep learning (DL)-based predictive models from electronic health records (EHRs) deliver impressive performance in many clinical tasks. Large training cohorts, however, are often required by these models to achieve high accuracy, hindering the adoption of DL-based models in scenarios with limited training data. Recently, bidirectional encoder representations from transformers (BERT) and related models have achieved tremendous successes in the natural language processing domain. The pretraining of BERT on a very large training corpus generates contextualized embeddings that can boost the performance of models trained on smaller datasets. Inspired by BERT, we propose Med-BERT, which adapts the BERT framework originally developed for the text domain to the structured EHR domain. Med-BERT is a contextualized embedding model pretrained on a structured EHR dataset of 28,490,650 patients. Fine-tuning experiments showed that Med-BERT substantially improves the prediction accuracy, boosting the area under the receiver operating characteristics curve (AUC) by 1.21–6.14\% in two disease prediction tasks from two clinical databases. In particular, pretrained Med-BERT obtains promising performances on tasks with small fine-tuning training sets and can boost the AUC by more than 20\% or obtain an AUC as high as a model trained on a training set ten times larger, compared with deep learning models without Med-BERT. We believe that Med-BERT will benefit disease prediction studies with small local training datasets, reduce data collection expenses, and accelerate the pace of artificial intelligence aided healthcare.},
+	language = {en},
+	number = {1},
+	urldate = {2022-08-31},
+	journal = {npj Digital Medicine},
+	author = {Rasmy, Laila and Xiang, Yang and Xie, Ziqian and Tao, Cui and Zhi, Degui},
+	month = dec,
+	year = {2021},
+	pages = {86},
+	file = {Rasmy et al_2021_Med-BERT.pdf:/Users/jeff/Library/CloudStorage/Box-Box/Ipad-share/library/Rasmy et al_2021_Med-BERT.pdf:application/pdf},
+}
+
+@article{kalyan_ammu_2022,
+	title = {{AMMU}: {A} survey of transformer-based biomedical pretrained language models},
+	volume = {126},
+	issn = {1532-0480},
+	shorttitle = {{AMMU}},
+	doi = {10.1016/j.jbi.2021.103982},
+	abstract = {Transformer-based pretrained language models (PLMs) have started a new era in modern natural language processing (NLP). These models combine the power of transformers, transfer learning, and self-supervised learning (SSL). Following the success of these models in the general domain, the biomedical research community has developed various in-domain PLMs starting from BioBERT to the latest BioELECTRA and BioALBERT models. We strongly believe there is a need for a survey paper that can provide a comprehensive survey of various transformer-based biomedical pretrained language models (BPLMs). In this survey, we start with a brief overview of foundational concepts like self-supervised learning, embedding layer and transformer encoder layers. We discuss core concepts of transformer-based PLMs like pretraining methods, pretraining tasks, fine-tuning methods, and various embedding types specific to biomedical domain. We introduce a taxonomy for transformer-based BPLMs and then discuss all the models. We discuss various challenges and present possible solutions. We conclude by highlighting some of the open issues which will drive the research community to further improve transformer-based BPLMs. The list of all the publicly available transformer-based BPLMs along with their links is provided at https://mr-nlp.github.io/posts/2021/05/transformer-based-biomedical-pretrained-language-models-list/.},
+	language = {eng},
+	journal = {Journal of Biomedical Informatics},
+	author = {Kalyan, Katikapalli Subramanyam and Rajasekharan, Ajit and Sangeetha, Sivanesan},
+	month = feb,
+	year = {2022},
+	pmid = {34974190},
+	keywords = {BioBERT, Biomedical pretrained language models, Biomedical Research, Language, Natural Language Processing, PubMedBERT, Self-supervised learning, Survey, Transformers},
+	pages = {103982},
+	file = {Kalyan et al_2022_AMMU.pdf:C\:\\Users\\jeffn\\Box\\Zotero-library\\Kalyan et al_2022_AMMU2.pdf:application/pdf},
+}
+
+@article{lee_biobert_2020,
+	title = {{BioBERT}: a pre-trained biomedical language representation model for biomedical text mining},
+	volume = {36},
+	issn = {1367-4803, 1367-4811},
+	shorttitle = {{BioBERT}},
+	url = {http://arxiv.org/abs/1901.08746},
+	doi = {10.1093/bioinformatics/btz682},
+	abstract = {Biomedical text mining is becoming increasingly important as the number of biomedical documents rapidly grows. With the progress in natural language processing (NLP), extracting valuable information from biomedical literature has gained popularity among researchers, and deep learning has boosted the development of effective biomedical text mining models. However, directly applying the advancements in NLP to biomedical text mining often yields unsatisfactory results due to a word distribution shift from general domain corpora to biomedical corpora. In this article, we investigate how the recently introduced pre-trained language model BERT can be adapted for biomedical corpora. We introduce BioBERT (Bidirectional Encoder Representations from Transformers for Biomedical Text Mining), which is a domain-specific language representation model pre-trained on large-scale biomedical corpora. With almost the same architecture across tasks, BioBERT largely outperforms BERT and previous state-of-the-art models in a variety of biomedical text mining tasks when pre-trained on biomedical corpora. While BERT obtains performance comparable to that of previous state-of-the-art models, BioBERT significantly outperforms them on the following three representative biomedical text mining tasks: biomedical named entity recognition (0.62\% F1 score improvement), biomedical relation extraction (2.80\% F1 score improvement) and biomedical question answering (12.24\% MRR improvement). Our analysis results show that pre-training BERT on biomedical corpora helps it to understand complex biomedical texts. We make the pre-trained weights of BioBERT freely available at https://github.com/naver/biobert-pretrained, and the source code for fine-tuning BioBERT available at https://github.com/dmis-lab/biobert.},
+	number = {4},
+	urldate = {2023-09-13},
+	journal = {Bioinformatics},
+	author = {Lee, Jinhyuk and Yoon, Wonjin and Kim, Sungdong and Kim, Donghyeon and Kim, Sunkyu and So, Chan Ho and Kang, Jaewoo},
+	month = feb,
+	year = {2020},
+	note = {arXiv:1901.08746 [cs]},
+	keywords = {Computer Science - Computation and Language},
+	pages = {1234--1240},
+	file = {arXiv.org Snapshot:C\:\\Users\\jeffn\\Zotero\\storage\\3LSYNIB5\\1901.html:text/html;Lee et al_2020_BioBERT.pdf:C\:\\Users\\jeffn\\Box\\Zotero-library\\Lee et al_2020_BioBERT.pdf:application/pdf},
+}
+
+@article{wornow_shaky_2023,
+	title = {The shaky foundations of large language models and foundation models for electronic health records},
+	volume = {6},
+	issn = {2398-6352},
+	url = {https://www.nature.com/articles/s41746-023-00879-8},
+	doi = {10.1038/s41746-023-00879-8},
+	abstract = {Abstract
+            The success of foundation models such as ChatGPT and AlphaFold has spurred significant interest in building similar models for electronic medical records (EMRs) to improve patient care and hospital operations. However, recent hype has obscured critical gaps in our understanding of these models’ capabilities. In this narrative review, we examine 84 foundation models trained on non-imaging EMR data (i.e., clinical text and/or structured data) and create a taxonomy delineating their architectures, training data, and potential use cases. We find that most models are trained on small, narrowly-scoped clinical datasets (e.g., MIMIC-III) or broad, public biomedical corpora (e.g., PubMed) and are evaluated on tasks that do not provide meaningful insights on their usefulness to health systems. Considering these findings, we propose an improved evaluation framework for measuring the benefits of clinical foundation models that is more closely grounded to metrics that matter in healthcare.},
+	language = {en},
+	number = {1},
+	urldate = {2023-08-09},
+	journal = {npj Digital Medicine},
+	author = {Wornow, Michael and Xu, Yizhe and Thapa, Rahul and Patel, Birju and Steinberg, Ethan and Fleming, Scott and Pfeffer, Michael A. and Fries, Jason and Shah, Nigam H.},
+	month = jul,
+	year = {2023},
+	pages = {135},
+	file = {Full Text:C\:\\Users\\jeffn\\Zotero\\storage\\CXG36SZY\\Wornow et al. - 2023 - The shaky foundations of large language models and.pdf:application/pdf},
+}
+
+@article{johnson_mimic-iii_2016,
+	title = {{MIMIC}-{III}, a freely accessible critical care database},
+	volume = {3},
+	issn = {2052-4463},
+	url = {http://www.nature.com/articles/sdata201635},
+	doi = {10.1038/sdata.2016.35},
+	abstract = {Abstract
+            MIMIC-III (‘Medical Information Mart for Intensive Care’) is a large, single-center database comprising information relating to patients admitted to critical care units at a large tertiary care hospital. Data includes vital signs, medications, laboratory measurements, observations and notes charted by care providers, fluid balance, procedure codes, diagnostic codes, imaging reports, hospital length of stay, survival data, and more. The database supports applications including academic and industrial research, quality improvement initiatives, and higher education coursework.},
+	language = {en},
+	number = {1},
+	urldate = {2022-06-29},
+	journal = {Scientific Data},
+	author = {Johnson, Alistair E.W. and Pollard, Tom J. and Shen, Lu and Lehman, Li-wei H. and Feng, Mengling and Ghassemi, Mohammad and Moody, Benjamin and Szolovits, Peter and Anthony Celi, Leo and Mark, Roger G.},
+	month = dec,
+	year = {2016},
+	pages = {160035},
+	file = {Johnson et al_2016_MIMIC-III, a freely accessible critical care database.pdf:/Users/jeff/Library/CloudStorage/Box-Box/Ipad-share/library/Johnson et al_2016_MIMIC-III, a freely accessible critical care database.pdf:application/pdf},
+}
+@misc{johnson_mimic-iv_nodate,
+	title = {{MIMIC}-{IV}},
+	url = {https://physionet.org/content/mimiciv/2.2/},
+	doi = {10.13026/6MM1-EK67},
+	abstract = {Retrospectively collected medical data has the opportunity to improve patient
+care through knowledge discovery and algorithm development. Broad reuse of
+medical data is desirable for the greatest public good, but data sharing must
+be done in a manner which protects patient privacy. The Medical Information
+Mart for Intensive Care (MIMIC)-III database provided critical care data for
+over 40,000 patients admitted to intensive care units at the Beth Israel
+Deaconess Medical Center (BIDMC). Importantly, MIMIC-III was deidentified, and
+patient identifiers were removed according to the Health Insurance Portability
+and Accountability Act (HIPAA) Safe Harbor provision. MIMIC-III has been
+integral in driving large amounts of research in clinical informatics,
+epidemiology, and machine learning. Here we present MIMIC-IV, an update to
+MIMIC-III, which incorporates contemporary data and improves on numerous
+aspects of MIMIC-III. MIMIC-IV adopts a modular approach to data organization,
+highlighting data provenance and facilitating both individual and combined use
+of disparate data sources. MIMIC-IV is intended to carry on the success of
+MIMIC-III and support a broad set of applications within healthcare.},
+	urldate = {2023-09-13},
+	publisher = {PhysioNet},
+	author = {Johnson, Alistair and Bulgarelli, Lucas and Pollard, Tom and Horng, Steven and Celi, Leo Anthony and Mark, Roger},
+}
+
+@article{shickel_deep_2018,
+	title = {Deep {EHR}: {A} {Survey} of {Recent} {Advances} in {Deep} {Learning} {Techniques} for {Electronic} {Health} {Record} ({EHR}) {Analysis}},
+	volume = {22},
+	issn = {2168-2208},
+	shorttitle = {Deep {EHR}},
+	doi = {10.1109/JBHI.2017.2767063},
+	abstract = {The past decade has seen an explosion in the amount of digital information stored in electronic health records (EHRs). While primarily designed for archiving patient information and performing administrative healthcare tasks like billing, many researchers have found secondary use of these records for various clinical informatics applications. Over the same period, the machine learning community has seen widespread advances in the field of deep learning. In this review, we survey the current research on applying deep learning to clinical tasks based on EHR data, where we find a variety of deep learning techniques and frameworks being applied to several types of clinical applications including information extraction, representation learning, outcome prediction, phenotyping, and deidentification. We identify several limitations of current research involving topics such as model interpretability, data heterogeneity, and lack of universal benchmarks. We conclude by summarizing the state of the field and identifying avenues of future deep EHR research.},
+	language = {eng},
+	number = {5},
+	journal = {IEEE journal of biomedical and health informatics},
+	author = {Shickel, Benjamin and Tighe, Patrick James and Bihorac, Azra and Rashidi, Parisa},
+	month = sep,
+	year = {2018},
+	pmid = {29989977},
+	pmcid = {PMC6043423},
+	keywords = {Deep Learning, Electronic Health Records, Humans},
+	pages = {1589--1604},
+	file = {Accepted Version:/Users/jeff/Zotero/storage/NZZSVK5U/Shickel et al. - 2018 - Deep EHR A Survey of Recent Advances in Deep Lear.pdf:application/pdf;Shickel et al_2018_Deep EHR.pdf:/Users/jeff/Library/CloudStorage/Box-Box/Ipad-share/library/Shickel et al_2018_Deep EHR.pdf:application/pdf},
+}
+@article{lee2024large,
+  title={Do Large Language Models understand Medical Codes?},
+  author={Lee, Simon A and Lindsey, Timothy},
+  journal={arXiv preprint arXiv:2403.10822},
+  year={2024}
+}
+
+@article{kline_multimodal_2022,
+	title = {Multimodal machine learning in precision health: {A} scoping review},
+	volume = {5},
+	issn = {2398-6352},
+	shorttitle = {Multimodal machine learning in precision health},
+	url = {https://www.nature.com/articles/s41746-022-00712-8},
+	doi = {10.1038/s41746-022-00712-8},
+	abstract = {Abstract
+            Machine learning is frequently being leveraged to tackle problems in the health sector including utilization for clinical decision-support. Its use has historically been focused on single modal data. Attempts to improve prediction and mimic the multimodal nature of clinical expert decision-making has been met in the biomedical field of machine learning by fusing disparate data. This review was conducted to summarize the current studies in this field and identify topics ripe for future research. We conducted this review in accordance with the PRISMA extension for Scoping Reviews to characterize multi-modal data fusion in health. Search strings were established and used in databases: PubMed, Google Scholar, and IEEEXplore from 2011 to 2021. A final set of 128 articles were included in the analysis. The most common health areas utilizing multi-modal methods were neurology and oncology. Early fusion was the most common data merging strategy. Notably, there was an improvement in predictive performance when using data fusion. Lacking from the papers were clear clinical deployment strategies, FDA-approval, and analysis of how using multimodal approaches from diverse sub-populations may improve biases and healthcare disparities. These findings provide a summary on multimodal data fusion as applied to health diagnosis/prognosis problems. Few papers compared the outputs of a multimodal approach with a unimodal prediction. However, those that did achieved an average increase of 6.4\% in predictive accuracy. Multi-modal machine learning, while more robust in its estimations over unimodal methods, has drawbacks in its scalability and the time-consuming nature of information concatenation.},
+	language = {en},
+	number = {1},
+	urldate = {2023-06-15},
+	journal = {npj Digital Medicine},
+	author = {Kline, Adrienne and Wang, Hanyin and Li, Yikuan and Dennis, Saya and Hutch, Meghan and Xu, Zhenxing and Wang, Fei and Cheng, Feixiong and Luo, Yuan},
+	month = nov,
+	year = {2022},
+	pages = {171},
+	file = {Full Text:/Users/jeff/Zotero/storage/LZAMVBRX/Kline et al. - 2022 - Multimodal machine learning in precision health A.pdf:application/pdf;Kline et al_2022_Multimodal machine learning in precision health.pdf:/Users/jeff/Library/CloudStorage/Box-Box/Ipad-share/library/Kline et al_2022_Multimodal machine learning in precision health.pdf:application/pdf},
+}
+
+@misc{noauthor_omop_nodate,
+	title = {{OMOP} {Common} {Data} {Model}},
+	url = {https://www.ohdsi.org/data-standardization/the-common-data-model/},
+}
+
+
+@misc{girdhar_imagebind_2023,
+	title = {{ImageBind}: {One} {Embedding} {Space} {To} {Bind} {Them} {All}},
+	shorttitle = {{ImageBind}},
+	url = {http://arxiv.org/abs/2305.05665},
+	abstract = {We present ImageBind, an approach to learn a joint embedding across six different modalities - images, text, audio, depth, thermal, and IMU data. We show that all combinations of paired data are not necessary to train such a joint embedding, and only image-paired data is sufficient to bind the modalities together. ImageBind can leverage recent large scale vision-language models, and extends their zero-shot capabilities to new modalities just by using their natural pairing with images. It enables novel emergent applications 'out-of-the-box' including cross-modal retrieval, composing modalities with arithmetic, cross-modal detection and generation. The emergent capabilities improve with the strength of the image encoder and we set a new state-of-the-art on emergent zero-shot recognition tasks across modalities, outperforming specialist supervised models. Finally, we show strong few-shot recognition results outperforming prior work, and that ImageBind serves as a new way to evaluate vision models for visual and non-visual tasks.},
+	urldate = {2023-05-10},
+	publisher = {arXiv},
+	author = {Girdhar, Rohit and El-Nouby, Alaaeldin and Liu, Zhuang and Singh, Mannat and Alwala, Kalyan Vasudev and Joulin, Armand and Misra, Ishan},
+	month = may,
+	year = {2023},
+	note = {arXiv:2305.05665 [cs]},
+	keywords = {Computer Science - Machine Learning, Computer Science - Computer Vision and Pattern Recognition, Computer Science - Artificial Intelligence, Computer Science - Multimedia},
+	file = {arXiv.org Snapshot:/Users/jeff/Zotero/storage/NQ8K5GF2/2305.html:text/html;Girdhar et al_2023_ImageBind.pdf:/Users/jeff/Library/CloudStorage/Box-Box/Ipad-share/library/Girdhar et al_2023_ImageBind.pdf:application/pdf},
+}
+@misc{zhao_survey_2023,
+	title = {A {Survey} of {Large} {Language} {Models}},
+	url = {http://arxiv.org/abs/2303.18223},
+	abstract = {Language is essentially a complex, intricate system of human expressions governed by grammatical rules. It poses a significant challenge to develop capable AI algorithms for comprehending and grasping a language. As a major approach, language modeling has been widely studied for language understanding and generation in the past two decades, evolving from statistical language models to neural language models. Recently, pre-trained language models (PLMs) have been proposed by pre-training Transformer models over large-scale corpora, showing strong capabilities in solving various NLP tasks. Since researchers have found that model scaling can lead to performance improvement, they further study the scaling effect by increasing the model size to an even larger size. Interestingly, when the parameter scale exceeds a certain level, these enlarged language models not only achieve a significant performance improvement but also show some special abilities that are not present in small-scale language models. To discriminate the difference in parameter scale, the research community has coined the term large language models (LLM) for the PLMs of significant size. Recently, the research on LLMs has been largely advanced by both academia and industry, and a remarkable progress is the launch of ChatGPT, which has attracted widespread attention from society. The technical evolution of LLMs has been making an important impact on the entire AI community, which would revolutionize the way how we develop and use AI algorithms. In this survey, we review the recent advances of LLMs by introducing the background, key findings, and mainstream techniques. In particular, we focus on four major aspects of LLMs, namely pre-training, adaptation tuning, utilization, and capacity evaluation. Besides, we also summarize the available resources for developing LLMs and discuss the remaining issues for future directions.},
+	urldate = {2023-09-13},
+	publisher = {arXiv},
+	author = {Zhao, Wayne Xin and Zhou, Kun and Li, Junyi and Tang, Tianyi and Wang, Xiaolei and Hou, Yupeng and Min, Yingqian and Zhang, Beichen and Zhang, Junjie and Dong, Zican and Du, Yifan and Yang, Chen and Chen, Yushuo and Chen, Zhipeng and Jiang, Jinhao and Ren, Ruiyang and Li, Yifan and Tang, Xinyu and Liu, Zikang and Liu, Peiyu and Nie, Jian-Yun and Wen, Ji-Rong},
+	month = sep,
+	year = {2023},
+	note = {arXiv:2303.18223 [cs]},
+	keywords = {Computer Science - Artificial Intelligence, Computer Science - Computation and Language},
+	file = {arXiv Fulltext PDF:/Users/jeff/Zotero/storage/IZQ7RMPR/Zhao et al. - 2023 - A Survey of Large Language Models.pdf:application/pdf;Zhao et al_2023_A Survey of Large Language Models.pdf:/Users/jeff/Library/CloudStorage/Box-Box/Zotero-library/Zhao et al_2023_A Survey of Large Language Models.pdf:application/pdf},
+}
+
+@inproceedings{hegselmann2023tabllm,
+  title={Tabllm: Few-shot classification of tabular data with large language models},
+  author={Hegselmann, Stefan and Buendia, Alejandro and Lang, Hunter and Agrawal, Monica and Jiang, Xiaoyi and Sontag, David},
+  booktitle={International Conference on Artificial Intelligence and Statistics},
+  pages={5549--5581},
+  year={2023},
+  organization={PMLR}
+}
+
+@inproceedings {lu2023MuG,
+  title = {MuG: A Multimodal Classification Benchmark on Game Data with Tabular, Textual, and Visual Fields},
+  author = {Lu, Jiaying and Qian, Yongchen and Zhao, Shifan and Xi, Yuanzhe and Yang, Carl},
+  url_arXiv = {https://arxiv.org/abs/2302.02978},
+  url_Code  = {https://github.com/lujiaying/MUG-Bench},
+  booktitle = {Findings of the Association for Computational Linguistics: EMNLP 2023},
+  month = {Dec.},
+  year = {2023}
+}
+
+@misc{golkar2023xval,
+      title={xVal: A Continuous Number Encoding for Large Language Models}, 
+      author={Siavash Golkar and Mariel Pettee and Michael Eickenberg and Alberto Bietti and Miles Cranmer and Geraud Krawezik and Francois Lanusse and Michael McCabe and Ruben Ohana and Liam Parker and Bruno Régaldo-Saint Blancard and Tiberiu Tesileanu and Kyunghyun Cho and Shirley Ho},
+      year={2023},
+      eprint={2310.02989},
+      archivePrefix={arXiv},
+      primaryClass={stat.ML}
+}
+
+
+@InProceedings{pmlr-v225-qiu23a,
+  title = 	 {Automated Cardiovascular Record Retrieval by Multimodal Learning between Electrocardiogram and Clinical Report},
+  author =       {Qiu, Jielin and Zhu, Jiacheng and Liu, Shiqi and Han, William and Zhang, Jingqi and Duan, Chaojing and Rosenberg, Michael A. and Liu, Emerson and Weber, Douglas and Zhao, Ding},
+  booktitle = 	 {Proceedings of the 3rd Machine Learning for Health Symposium},
+  pages = 	 {480--497},
+  year = 	 {2023},
+  editor = 	 {Hegselmann, Stefan and Parziale, Antonio and Shanmugam, Divya and Tang, Shengpu and Asiedu, Mercy Nyamewaa and Chang, Serina and Hartvigsen, Tom and Singh, Harvineet},
+  volume = 	 {225},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {10 Dec},
+  publisher =    {PMLR},
+  pdf = 	 {https://proceedings.mlr.press/v225/qiu23a/qiu23a.pdf},
+  url = 	 {https://proceedings.mlr.press/v225/qiu23a.html},
+  abstract = 	 {Automated interpretation of electrocardiograms (ECG) has garnered significant attention with the advancements in machine learning methodologies. Despite the growing interest, most current studies focus solely on classification or regression tasks which overlook a crucial aspect of clinical cardio-disease diagnosis: the diagnostic report generated by experienced human clinicians. In this paper, we introduce a novel approach to ECG interpretation, leveraging recent breakthroughs in Large Language Models (LLMs) and Vision-Transformer (ViT) models. Rather than treating ECG diagnosis as a classification or regression task, we propose an alternative method of automatically identifying the most similar clinical cases based on the input ECG data. Also, since interpreting ECG as images is more affordable and accessible, we process ECG as encoded images and adopt a vision-language learning paradigm to jointly learn vision-language alignment between encoded ECG images and ECG diagnosis reports. Encoding ECG into images can result in an efficient ECG retrieval system, which will be highly practical and useful in clinical applications. More importantly, our findings could serve as a crucial resource for providing diagnostic services in underdevelopment regions.}
+}
+
+@misc{chen2023multimodal,
+      title={Multimodal Clinical Benchmark for Emergency Care (MC-BEC): A Comprehensive Benchmark for Evaluating Foundation Models in Emergency Medicine}, 
+      author={Emma Chen and Aman Kansal and Julie Chen and Boyang Tom Jin and Julia Rachel Reisler and David A Kim and Pranav Rajpurkar},
+      year={2023},
+      eprint={2311.04937},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG}
+}
+
+@article{zhou2023transformer,
+  title={A transformer-based representation-learning model with unified processing of multimodal input for clinical diagnostics},
+  author={Zhou, HY and Yu, Y and Wang, C and others},
+  journal={Nature Biomedical Engineering},
+  volume={7},
+  pages={743--755},
+  year={2023},
+  publisher={Nature Publishing Group},
+  doi={10.1038/s41551-023-01045-x}
+}
+
+@article{khader2023medical,
+  title={Medical transformer for multimodal survival prediction in intensive care: integration of imaging and non-imaging data},
+  author={Khader, F and Kather, JN and M{\"u}ller-Franzes, G and others},
+  journal={Scientific Reports},
+  volume={13},
+  pages={10666},
+  year={2023},
+  publisher={Nature Publishing Group},
+  doi={10.1038/s41598-023-37835-1}
+}
+
+@inproceedings{hur2022unifying,
+  title={Unifying heterogeneous electronic health records systems via text-based code embedding},
+  author={Hur, Kyunghoon and Lee, Jiyoung and Oh, Jungwoo and Price, Wesley and Kim, Younghak and Choi, Edward},
+  booktitle={Conference on Health, Inference, and Learning},
+  pages={183--203},
+  year={2022},
+  organization={PMLR}
+}
+
+@article{hur2023genhpf,
+  title={GenHPF: General Healthcare Predictive Framework for Multi-task Multi-source Learning},
+  author={Hur, Kyunghoon and Oh, Jungwoo and Kim, Junu and Kim, Jiyoun and Lee, Min Jae and Cho, Eunbyeol and Moon, Seong-Eun and Kim, Young-Hak and Atallah, Louis and Choi, Edward},
+  journal={IEEE Journal of Biomedical and Health Informatics},
+  year={2023},
+  publisher={IEEE}
+}
+
+@article{zhang2023towards,
+  title={Towards foundation models for learning on tabular data},
+  author={Zhang, Han and Wen, Xumeng and Zheng, Shun and Xu, Wei and Bian, Jiang},
+  journal={arXiv preprint arXiv:2310.07338},
+  year={2023}
+}
+
+@article{slack2023tablet,
+  title={Tablet: Learning from instructions for tabular data},
+  author={Slack, Dylan and Singh, Sameer},
+  journal={arXiv preprint arXiv:2304.13188},
+  year={2023}
+}
+
+@inproceedings{shi2024ehragent,
+  title={Ehragent: Code empowers large language models for few-shot complex tabular reasoning on electronic health records},
+  author={Shi, Wenqi and Xu, Ran and Zhuang, Yuchen and Yu, Yue and Zhang, Jieyu and Wu, Hang and Zhu, Yuanda and Ho, Joyce C and Yang, Carl and Wang, May Dongmei},
+  booktitle={ICLR 2024 Workshop on Large Language Model (LLM) Agents},
+  year={2024}
+}
+
+@article{sanh2019distilbert,
+  title={DistilBERT, a distilled version of BERT: smaller, faster, cheaper and lighter},
+  author={Sanh, Victor and Debut, Lysandre and Chaumond, Julien and Wolf, Thomas},
+  journal={arXiv preprint arXiv:1910.01108},
+  year={2019}
+}
+
+@INPROCEEDINGS{9980157,
+    author={Vasantharajan, Charangan and Tun, Kyaw Zin and Thi-Nga, Ho and Jain, Sparsh and Rong, Tong and Siong, Chng Eng},
+    booktitle={2022 Asia-Pacific Signal and Information Processing Association Annual Summit and Conference (APSIPA ASC)},
+    title={MedBERT: A Pre-trained Language Model for Biomedical Named Entity Recognition},
+    year={2022},
+    volume={},
+    number={},
+    pages={1482-1488},
+    doi={10.23919/APSIPAASC55919.2022.9980157}
+}
+
+@article{lee2020biobert,
+  title={BioBERT: a pre-trained biomedical language representation model for biomedical text mining},
+  author={Lee, Jinhyuk and Yoon, Wonjin and Kim, Sungdong and Kim, Donghyeon and Kim, Sunkyu and So, Chan Ho and Kang, Jaewoo},
+  journal={Bioinformatics},
+  volume={36},
+  number={4},
+  pages={1234--1240},
+  year={2020},
+  publisher={Oxford University Press}
+}
+
+@article{huang2019clinicalbert,
+  title={Clinicalbert: Modeling clinical notes and predicting hospital readmission},
+  author={Huang, Kexin and Altosaar, Jaan and Ranganath, Rajesh},
+  journal={arXiv preprint arXiv:1904.05342},
+  year={2019}
+}
+
+@article{alsentzer2019publicly,
+  title={Publicly available clinical BERT embeddings},
+  author={Alsentzer, Emily and Murphy, John R and Boag, Willie and Weng, Wei-Hung and Jin, Di and Naumann, Tristan and McDermott, Matthew},
+  journal={arXiv preprint arXiv:1904.03323},
+  year={2019}
+}
+
+
+@article{hegselmann2024data,
+  title={A Data-Centric Approach To Generate Faithful and High Quality Patient Summaries with Large Language Models},
+  author={Hegselmann, Stefan and Shen, Shannon Zejiang and Gierse, Florian and Agrawal, Monica and Sontag, David and Jiang, Xiaoyi},
+  journal={arXiv preprint arXiv:2402.15422},
+  year={2024}
+}
+
+@article{2020t5,
+  author  = {Colin Raffel and Noam Shazeer and Adam Roberts and Katherine Lee and Sharan Narang and Michael Matena and Yanqi Zhou and Wei Li and Peter J. Liu},
+  title   = {Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer},
+  journal = {Journal of Machine Learning Research},
+  year    = {2020},
+  volume  = {21},
+  number  = {140},
+  pages   = {1-67},
+  url     = {http://jmlr.org/papers/v21/20-074.html}
+}
+
+@article{yang2019xlnet,
+  title={Xlnet: Generalized autoregressive pretraining for language understanding},
+  author={Yang, Zhilin and Dai, Zihang and Yang, Yiming and Carbonell, Jaime and Salakhutdinov, Russ R and Le, Quoc V},
+  journal={Advances in neural information processing systems},
+  volume={32},
+  year={2019}
+}
+
+@article{vaswani2017attention,
+  title={Attention is all you need},
+  author={Vaswani, Ashish and Shazeer, Noam and Parmar, Niki and Uszkoreit, Jakob and Jones, Llion and Gomez, Aidan N and Kaiser, {\L}ukasz and Polosukhin, Illia},
+  journal={Advances in neural information processing systems},
+  volume={30},
+  year={2017}
+}
+
+@article{ethayarajh2019contextual,
+  title={How contextual are contextualized word representations? Comparing the geometry of BERT, ELMo, and GPT-2 embeddings},
+  author={Ethayarajh, Kawin},
+  journal={arXiv preprint arXiv:1909.00512},
+  year={2019}
+}
+
+@article{schomacker2021language,
+  title={Language representation models: An overview},
+  author={Schomacker, Thorben and Tropmann-Frick, Marina},
+  journal={Entropy},
+  volume={23},
+  number={11},
+  pages={1422},
+  year={2021},
+  publisher={MDPI}
+}
+
+@article{topal2021exploring,
+  title={Exploring transformers in natural language generation: Gpt, bert, and xlnet},
+  author={Topal, M Onat and Bas, Anil and van Heerden, Imke},
+  journal={arXiv preprint arXiv:2102.08036},
+  year={2021}
+}
+
+@article{song2023restgpt,
+  title={Restgpt: Connecting large language models with real-world applications via restful apis},
+  author={Song, Yifan and Xiong, Weimin and Zhu, Dawei and Li, Cheng and Wang, Ke and Tian, Ye and Li, Sujian},
+  journal={arXiv preprint arXiv:2306.06624},
+  year={2023}
+}
+
+@article{jiang2023large,
+  title={Large Language Model for Causal Decision Making},
+  author={Jiang, Haitao and Ge, Lin and Gao, Yuhe and Wang, Jianian and Song, Rui},
+  journal={arXiv preprint arXiv:2312.17122},
+  year={2023}
+}
+
+@article{chen2024beyond,
+  title={Beyond Natural Language: LLMs Leveraging Alternative Formats for Enhanced Reasoning and Communication},
+  author={Chen, Weize and Yuan, Chenfei and Yuan, Jiarui and Su, Yusheng and Qian, Chen and Yang, Cheng and Xie, Ruobing and Liu, Zhiyuan and Sun, Maosong},
+  journal={arXiv preprint arXiv:2402.18439},
+  year={2024}
+}
+
+@article{yao2023sai,
+  title={SAI: Solving AI Tasks with Systematic Artificial Intelligence in Communication Network},
+  author={Yao, Lei and Zhang, Yong and Yan, Zilong and Tian, Jialu},
+  journal={arXiv preprint arXiv:2310.09049},
+  year={2023}
+}
+
+@article{jiang2023health,
+  title={Health system-scale language models are all-purpose prediction engines},
+  author={Jiang, Lavender Yao and Liu, Xujin Chris and Nejatian, Nima Pour and Nasir-Moin, Mustafa and Wang, Duo and Abidin, Anas and Eaton, Kevin and Riina, Howard Antony and Laufer, Ilya and Punjabi, Paawan and others},
+  journal={Nature},
+  volume={619},
+  number={7969},
+  pages={357--362},
+  year={2023},
+  publisher={Nature Publishing Group UK London}
+}
+
+@article{wei2022chain,
+  title={Chain-of-thought prompting elicits reasoning in large language models},
+  author={Wei, Jason and Wang, Xuezhi and Schuurmans, Dale and Bosma, Maarten and Xia, Fei and Chi, Ed and Le, Quoc V and Zhou, Denny and others},
+  journal={Advances in neural information processing systems},
+  volume={35},
+  pages={24824--24837},
+  year={2022}
+}
+
+@article{wornow2024ehrshot,
+  title={Ehrshot: An ehr benchmark for few-shot evaluation of foundation models},
+  author={Wornow, Michael and Thapa, Rahul and Steinberg, Ethan and Fries, Jason and Shah, Nigam},
+  journal={Advances in Neural Information Processing Systems},
+  volume={36},
+  year={2024}
+}
+
+@article{yan2022radbert,
+  title={RadBERT: Adapting transformer-based language models to radiology},
+  author={Yan, An and McAuley, Julian and Lu, Xing and Du, Jiang and Chang, Eric Y and Gentili, Amilcare and Hsu, Chun-Nan},
+  journal={Radiology: Artificial Intelligence},
+  volume={4},
+  number={4},
+  pages={e210258},
+  year={2022},
+  publisher={Radiological Society of North America}
+}
+
+@article{steinberg2021language,
+  title={Language models are an effective representation learning technique for electronic health record data},
+  author={Steinberg, Ethan and Jung, Ken and Fries, Jason A and Corbin, Conor K and Pfohl, Stephen R and Shah, Nigam H},
+  journal={Journal of biomedical informatics},
+  volume={113},
+  pages={103637},
+  year={2021},
+  publisher={Elsevier}
+}
+
+@article{xie2022benchmarking,
+  title={Benchmarking emergency department prediction models with machine learning and public electronic health records},
+  author={Xie, Feng and Zhou, Jun and Lee, Jin Wee and Tan, Mingrui and Li, Siqi and Rajnthern, Logasan S/O and Chee, Marcel Lucas and Chakraborty, Bibhas and Wong, An-Kwok Ian and Dagan, Alon and others},
+  journal={Scientific Data},
+  volume={9},
+  number={1},
+  pages={658},
+  year={2022},
+  publisher={Nature Publishing Group UK London}
+}
+
+@misc{Johnson2023MIMICIVED,
+  author = {Johnson, Alistair and et al.},
+  title = {{MIMIC-IV-ED (version 2.2)}},
+  howpublished = {PhysioNet},
+  year = {2023},
+  url = {https://doi.org/10.13026/5ntk-km72}
+}
+
+@inproceedings{arnrich2024medical,
+  title={Medical Event Data Standard (MEDS): Facilitating Machine Learning for Health},
+  author={Arnrich, Bert and Choi, Edward and Fries, Jason Alan and McDermott, Matthew BA and Oh, Jungwoo and Pollard, Tom and Shah, Nigam and Steinberg, Ethan and Wornow, Michael and van de Water, Robin},
+  booktitle={ICLR 2024 Workshop on Learning from Time Series For Health},
+  year={2024}
+}
+
+@article{wolf2019huggingface,
+  title={Huggingface's transformers: State-of-the-art natural language processing},
+  author={Wolf, Thomas and Debut, Lysandre and Sanh, Victor and Chaumond, Julien and Delangue, Clement and Moi, Anthony and Cistac, Pierric and Rault, Tim and Louf, R{\'e}mi and Funtowicz, Morgan and others},
+  journal={arXiv preprint arXiv:1910.03771},
+  year={2019}
+}
+
+@article{grootendorst2022bertopic,
+  title={BERTopic: Neural topic modeling with a class-based TF-IDF procedure},
+  author={Grootendorst, Maarten},
+  journal={arXiv preprint arXiv:2203.05794},
+  year={2022}
+}
+
+@inproceedings{ellershaw2024automated,
+  title={Automated Generation of Hospital Discharge Summaries Using Clinical Guidelines and Large Language Models},
+  author={Ellershaw, Simon and Tomlinson, Christopher and Burton, Oliver E and Frost, Thomas and Hanrahan, John Gerrard and Khan, Danyal Zaman and Horsfall, Hugo Layard and Little, Mollie and Malgapo, Evaleen and Starup-Hansen, Joachim and others},
+  booktitle={AAAI 2024 Spring Symposium on Clinical Foundation Models},
+  year={2024}
+}
+
+@incollection{chang2021emr,
+  title={EMR Tips and Tricks},
+  author={Chang, Bliss J},
+  booktitle={The Ultimate Medical School Rotation Guide},
+  pages={43--56},
+  year={2021},
+  publisher={Springer}
+}
+
+@article{saito2015precision,
+  title={The precision-recall plot is more informative than the ROC plot when evaluating binary classifiers on imbalanced datasets},
+  author={Saito, Takaya and Rehmsmeier, Marc},
+  journal={PloS one},
+  volume={10},
+  number={3},
+  pages={e0118432},
+  year={2015},
+  publisher={Public Library of Science San Francisco, CA USA}
+}
+
+@article{radford2018improving,
+  title={Improving language understanding by generative pre-training},
+  author={Radford, Alec and Narasimhan, Karthik and Salimans, Tim and Sutskever, Ilya and others},
+  year={2018},
+  publisher={OpenAI}
+}
+
+@article{touvron2023llama,
+  title={Llama 2: Open foundation and fine-tuned chat models},
+  author={Touvron, Hugo and Martin, Louis and Stone, Kevin and Albert, Peter and Almahairi, Amjad and Babaei, Yasmine and Bashlykov, Nikolay and Batra, Soumya and Bhargava, Prajjwal and Bhosale, Shruti and others},
+  journal={arXiv preprint arXiv:2307.09288},
+  year={2023}
+}
+
+@inproceedings{hill2023chiron,
+  title={CHIRon: A Generative Foundation Model for Structured Sequential Medical Data},
+  author={Hill, Brian L and Emami, Melikasadat and Nori, Vijay S and Cordova-Palomera, Aldo and Tillman, Robert E and Halperin, Eran},
+  booktitle={Deep Generative Models for Health Workshop NeurIPS 2023},
+  year={2023}
+}
+
+@article{wang2023meditab,
+  title={MediTab: Scaling Medical Tabular Data Predictors via Data Consolidation, Enrichment, and Refinement},
+  author={Wang, Zifeng and Gao, Chufan and Xiao, Cao and Sun, Jimeng},
+  year={2023}
+}
+
+@article{idowu2023streams,
+  title={Streams, rivers and data lakes: an introduction to understanding modern electronic healthcare records},
+  author={Idowu, Esther Ayobamidele Abisola and Teo, James and Salih, Sabrine and Valverde, Joshua and Yeung, Joshua Au},
+  journal={Clinical Medicine},
+  volume={23},
+  number={4},
+  pages={409},
+  year={2023},
+  publisher={Royal College of Physicians}
+}

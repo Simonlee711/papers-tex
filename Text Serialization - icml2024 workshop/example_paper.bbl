@@ -1,0 +1,506 @@
+\begin{thebibliography}{100}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Aeberhard \& Forina(1991)Aeberhard and Forina]{misc_wine_109}
+Aeberhard, S. and Forina, M.
+\newblock {Wine}.
+\newblock UCI Machine Learning Repository, 1991.
+\newblock {DOI}: https://doi.org/10.24432/C5PC7J.
+
+\bibitem[Arik \& Pfister(2021)Arik and Pfister]{arik2021tabnet}
+Arik, S.~{\"O}. and Pfister, T.
+\newblock Tabnet: Attentive interpretable tabular learning.
+\newblock In \emph{Proceedings of the AAAI conference on artificial intelligence}, volume~35, pp.\  6679--6687, 2021.
+
+\bibitem[Asuncion \& Newman(2007)Asuncion and Newman]{asuncion2007uci}
+Asuncion, A. and Newman, D.
+\newblock Uci machine learning repository, 2007.
+
+\bibitem[Bahdanau et~al.(2014)Bahdanau, Cho, and Bengio]{bahdanau2014neural}
+Bahdanau, D., Cho, K., and Bengio, Y.
+\newblock Neural machine translation by jointly learning to align and translate.
+\newblock \emph{arXiv preprint arXiv:1409.0473}, 2014.
+
+\bibitem[Beltagy et~al.(2020)Beltagy, Peters, and Cohan]{beltagy2020longformer}
+Beltagy, I., Peters, M.~E., and Cohan, A.
+\newblock Longformer: The long-document transformer.
+\newblock \emph{arXiv preprint arXiv:2004.05150}, 2020.
+
+\bibitem[Belyaeva et~al.(2023)Belyaeva, Cosentino, Hormozdiari, Eswaran, Shetty, Corrado, Carroll, McLean, and Furlotte]{belyaeva2023multimodal}
+Belyaeva, A., Cosentino, J., Hormozdiari, F., Eswaran, K., Shetty, S., Corrado, G., Carroll, A., McLean, C.~Y., and Furlotte, N.~A.
+\newblock Multimodal llms for health grounded in individual-specific data.
+\newblock In \emph{Workshop on Machine Learning for Multimodal Healthcare Data}, pp.\  86--102. Springer, 2023.
+
+\bibitem[Borisov et~al.(2022)Borisov, Leemann, Se{\ss}ler, Haug, Pawelczyk, and Kasneci]{borisov2022deep}
+Borisov, V., Leemann, T., Se{\ss}ler, K., Haug, J., Pawelczyk, M., and Kasneci, G.
+\newblock Deep neural networks and tabular data: A survey.
+\newblock \emph{IEEE Transactions on Neural Networks and Learning Systems}, 2022.
+
+\bibitem[Brown et~al.(2018)Brown, Doran, Kramer, and Reynolds]{brown2018heloc}
+Brown, K., Doran, D., Kramer, R., and Reynolds, B.
+\newblock Heloc applicant risk performance evaluation by topological hierarchical decomposition.
+\newblock \emph{arXiv preprint arXiv:1811.10658}, 2018.
+
+\bibitem[Brown et~al.(2020)Brown, Mann, Ryder, Subbiah, Kaplan, Dhariwal, Neelakantan, Shyam, Sastry, Askell, et~al.]{brown2020language}
+Brown, T., Mann, B., Ryder, N., Subbiah, M., Kaplan, J.~D., Dhariwal, P., Neelakantan, A., Shyam, P., Sastry, G., Askell, A., et~al.
+\newblock Language models are few-shot learners.
+\newblock \emph{Advances in neural information processing systems}, 33:\penalty0 1877--1901, 2020.
+
+\bibitem[Chen et~al.(2024{\natexlab{a}})Chen, Kansal, Chen, Jin, Reisler, Kim, and Rajpurkar]{chen2024multimodal}
+Chen, E., Kansal, A., Chen, J., Jin, B.~T., Reisler, J., Kim, D.~E., and Rajpurkar, P.
+\newblock Multimodal clinical benchmark for emergency care (mc-bec): A comprehensive benchmark for evaluating foundation models in emergency medicine.
+\newblock \emph{Advances in Neural Information Processing Systems}, 36, 2024{\natexlab{a}}.
+
+\bibitem[Chen \& Guestrin(2016)Chen and Guestrin]{chen2016xgboost}
+Chen, T. and Guestrin, C.
+\newblock Xgboost: A scalable tree boosting system.
+\newblock In \emph{Proceedings of the 22nd acm sigkdd international conference on knowledge discovery and data mining}, pp.\  785--794, 2016.
+
+\bibitem[Chen et~al.(2024{\natexlab{b}})Chen, Yuan, Yuan, Su, Qian, Yang, Xie, Liu, and Sun]{chen2024beyond}
+Chen, W., Yuan, C., Yuan, J., Su, Y., Qian, C., Yang, C., Xie, R., Liu, Z., and Sun, M.
+\newblock Beyond natural language: Llms leveraging alternative formats for enhanced reasoning and communication.
+\newblock \emph{arXiv preprint arXiv:2402.18439}, 2024{\natexlab{b}}.
+
+\bibitem[Chicco \& Jurman(2020)Chicco and Jurman]{chicco2020advantages}
+Chicco, D. and Jurman, G.
+\newblock The advantages of the matthews correlation coefficient (mcc) over f1 score and accuracy in binary classification evaluation.
+\newblock \emph{BMC genomics}, 21:\penalty0 1--13, 2020.
+
+\bibitem[Chilimbi et~al.(2014)Chilimbi, Suzue, Apacible, and Kalyanaraman]{chilimbi2014project}
+Chilimbi, T., Suzue, Y., Apacible, J., and Kalyanaraman, K.
+\newblock Project adam: Building an efficient and scalable deep learning training system.
+\newblock In \emph{11th USENIX symposium on operating systems design and implementation (OSDI 14)}, pp.\  571--582, 2014.
+
+\bibitem[Clark et~al.(2020)Clark, Luong, Le, and Manning]{clark2020electra}
+Clark, K., Luong, M.-T., Le, Q.~V., and Manning, C.~D.
+\newblock Electra: Pre-training text encoders as discriminators rather than generators.
+\newblock \emph{arXiv preprint arXiv:2003.10555}, 2020.
+
+\bibitem[Cortes \& Vapnik(1995)Cortes and Vapnik]{cortes1995support}
+Cortes, C. and Vapnik, V.
+\newblock Support-vector networks.
+\newblock \emph{Machine learning}, 20:\penalty0 273--297, 1995.
+
+\bibitem[Dal~Pozzolo et~al.(2014)Dal~Pozzolo, Caelen, Le~Borgne, Waterschoot, and Bontempi]{dal2014learned}
+Dal~Pozzolo, A., Caelen, O., Le~Borgne, Y.-A., Waterschoot, S., and Bontempi, G.
+\newblock Learned lessons in credit card fraud detection from a practitioner perspective.
+\newblock \emph{Expert systems with applications}, 41\penalty0 (10):\penalty0 4915--4928, 2014.
+
+\bibitem[Dal~Pozzolo et~al.(2015)Dal~Pozzolo, Caelen, Johnson, and Bontempi]{dal2015calibrating}
+Dal~Pozzolo, A., Caelen, O., Johnson, R.~A., and Bontempi, G.
+\newblock Calibrating probability with undersampling for unbalanced classification.
+\newblock In \emph{2015 IEEE symposium series on computational intelligence}, pp.\  159--166. IEEE, 2015.
+
+\bibitem[Dal~Pozzolo et~al.(2017)Dal~Pozzolo, Boracchi, Caelen, Alippi, and Bontempi]{dal2017credit}
+Dal~Pozzolo, A., Boracchi, G., Caelen, O., Alippi, C., and Bontempi, G.
+\newblock Credit card fraud detection: a realistic modeling and a novel learning strategy.
+\newblock \emph{IEEE transactions on neural networks and learning systems}, 29\penalty0 (8):\penalty0 3784--3797, 2017.
+
+\bibitem[Devlin et~al.(2018)Devlin, Chang, Lee, and Toutanova]{devlin2018bert}
+Devlin, J., Chang, M.-W., Lee, K., and Toutanova, K.
+\newblock Bert: Pre-training of deep bidirectional transformers for language understanding.
+\newblock \emph{arXiv preprint arXiv:1810.04805}, 2018.
+
+\bibitem[Di et~al.(2020)Di, Yu, Bu, and Sun]{di2020mutual}
+Di, X., Yu, P., Bu, R., and Sun, M.
+\newblock Mutual information maximization in graph neural networks.
+\newblock In \emph{2020 International Joint Conference on Neural Networks (IJCNN)}, pp.\  1--7. IEEE, 2020.
+
+\bibitem[Dinh et~al.(2022)Dinh, Zeng, Zhang, Lin, Gira, Rajput, Sohn, Papailiopoulos, and Lee]{dinh2022lift}
+Dinh, T., Zeng, Y., Zhang, R., Lin, Z., Gira, M., Rajput, S., Sohn, J.-y., Papailiopoulos, D., and Lee, K.
+\newblock Lift: Language-interfaced fine-tuning for non-language machine learning tasks.
+\newblock \emph{Advances in Neural Information Processing Systems}, 35:\penalty0 11763--11784, 2022.
+
+\bibitem[Eaton \& Haas(1995)Eaton and Haas]{eaton1995titanic}
+Eaton, J.~P. and Haas, C.
+\newblock \emph{Titanic: Triumph and tragedy}.
+\newblock WW Norton \& Company, 1995.
+
+\bibitem[Fang et~al.(2024)Fang, Xu, Tan, Zhang, Hu, Qi, Nickleach, Socolinsky, Sengamedu, and Faloutsos]{fang2024large}
+Fang, X., Xu, W., Tan, F.~A., Zhang, J., Hu, Z., Qi, Y., Nickleach, S., Socolinsky, D., Sengamedu, S., and Faloutsos, C.
+\newblock Large language models(llms) on tabular data: Prediction, generation, and understanding -- a survey, 2024.
+
+\bibitem[Feng et~al.(2019)Feng, Chen, Gu, Tao, Zhang, Hu, Yin, and Zuo]{feng2019fringe}
+Feng, S., Chen, Q., Gu, G., Tao, T., Zhang, L., Hu, Y., Yin, W., and Zuo, C.
+\newblock Fringe pattern analysis using deep learning.
+\newblock \emph{Advanced photonics}, 1\penalty0 (2):\penalty0 025001--025001, 2019.
+
+\bibitem[Fiorini(2016)]{misc_gene_expression_cancer_rna-seq_401}
+Fiorini, S.
+\newblock {gene expression cancer RNA-Seq}.
+\newblock UCI Machine Learning Repository, 2016.
+\newblock {DOI}: https://doi.org/10.24432/C5R88H.
+
+\bibitem[Fisher(1988)]{misc_iris_53}
+Fisher, R.~A.
+\newblock {Iris}.
+\newblock UCI Machine Learning Repository, 1988.
+\newblock {DOI}: https://doi.org/10.24432/C56C76.
+
+\bibitem[Gardner et~al.(2023)Gardner, Popovic, and Schmidt]{gardner2023tableshift}
+Gardner, J., Popovic, Z., and Schmidt, L.
+\newblock Benchmarking distribution shift in tabular data with tableshift.
+\newblock \emph{Advances in Neural Information Processing Systems}, 2023.
+
+\bibitem[GIDROL()]{gidroltext}
+GIDROL, J.-B.
+\newblock Text classification with llms.
+
+\bibitem[Golkar et~al.(2023)Golkar, Pettee, Eickenberg, Bietti, Cranmer, Krawezik, Lanusse, McCabe, Ohana, Parker, et~al.]{golkar2023xval}
+Golkar, S., Pettee, M., Eickenberg, M., Bietti, A., Cranmer, M., Krawezik, G., Lanusse, F., McCabe, M., Ohana, R., Parker, L., et~al.
+\newblock xval: A continuous number encoding for large language models.
+\newblock \emph{arXiv preprint arXiv:2310.02989}, 2023.
+
+\bibitem[Gorishniy et~al.(2021)Gorishniy, Rubachev, Khrulkov, and Babenko]{gorishniy2021revisiting}
+Gorishniy, Y., Rubachev, I., Khrulkov, V., and Babenko, A.
+\newblock Revisiting deep learning models for tabular data.
+\newblock \emph{Advances in Neural Information Processing Systems}, 34:\penalty0 18932--18943, 2021.
+
+\bibitem[Gorishniy et~al.(2022)Gorishniy, Rubachev, and Babenko]{gorishniy2022embeddings}
+Gorishniy, Y., Rubachev, I., and Babenko, A.
+\newblock On embeddings for numerical features in tabular deep learning.
+\newblock \emph{Advances in Neural Information Processing Systems}, 35:\penalty0 24991--25004, 2022.
+
+\bibitem[Grinsztajn et~al.(2022)Grinsztajn, Oyallon, and Varoquaux]{grinsztajn2022tree}
+Grinsztajn, L., Oyallon, E., and Varoquaux, G.
+\newblock Why do tree-based models still outperform deep learning on typical tabular data?
+\newblock \emph{Advances in neural information processing systems}, 35:\penalty0 507--520, 2022.
+
+\bibitem[Guyon \& Elisseeff(2003)Guyon and Elisseeff]{guyon2003introduction}
+Guyon, I. and Elisseeff, A.
+\newblock An introduction to variable and feature selection.
+\newblock \emph{Journal of machine learning research}, 3\penalty0 (Mar):\penalty0 1157--1182, 2003.
+
+\bibitem[Harari \& Katz(2022)Harari and Katz]{harari2022few}
+Harari, A. and Katz, G.
+\newblock Few-shot tabular data enrichment using fine-tuned transformer architectures.
+\newblock In \emph{Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)}, pp.\  1577--1591, 2022.
+
+\bibitem[He et~al.(2020)He, Liu, Gao, and Chen]{he2020deberta}
+He, P., Liu, X., Gao, J., and Chen, W.
+\newblock Deberta: Decoding-enhanced bert with disentangled attention.
+\newblock \emph{arXiv preprint arXiv:2006.03654}, 2020.
+
+\bibitem[Hegselmann et~al.(2023)Hegselmann, Buendia, Lang, Agrawal, Jiang, and Sontag]{hegselmann2023tabllm}
+Hegselmann, S., Buendia, A., Lang, H., Agrawal, M., Jiang, X., and Sontag, D.
+\newblock Tabllm: Few-shot classification of tabular data with large language models.
+\newblock In \emph{International Conference on Artificial Intelligence and Statistics}, pp.\  5549--5581. PMLR, 2023.
+
+\bibitem[Hegselmann et~al.(2024)Hegselmann, Shen, Gierse, Agrawal, Sontag, and Jiang]{hegselmann2024data}
+Hegselmann, S., Shen, S.~Z., Gierse, F., Agrawal, M., Sontag, D., and Jiang, X.
+\newblock A data-centric approach to generate faithful and high quality patient summaries with large language models.
+\newblock \emph{arXiv preprint arXiv:2402.15422}, 2024.
+
+\bibitem[Hollmann et~al.(2022)Hollmann, M{\"u}ller, Eggensperger, and Hutter]{hollmann2022tabpfn}
+Hollmann, N., M{\"u}ller, S., Eggensperger, K., and Hutter, F.
+\newblock Tabpfn: A transformer that solves small tabular classification problems in a second.
+\newblock \emph{arXiv preprint arXiv:2207.01848}, 2022.
+
+\bibitem[Huang et~al.(2020)Huang, Khetan, Cvitkovic, and Karnin]{huang2020tabtransformer}
+Huang, X., Khetan, A., Cvitkovic, M., and Karnin, Z.
+\newblock Tabtransformer: Tabular data modeling using contextual embeddings.
+\newblock \emph{arXiv preprint arXiv:2012.06678}, 2020.
+
+\bibitem[Imani et~al.(2023)Imani, Du, and Shrivastava]{imani2023mathprompter}
+Imani, S., Du, L., and Shrivastava, H.
+\newblock Mathprompter: Mathematical reasoning using large language models.
+\newblock \emph{arXiv preprint arXiv:2303.05398}, 2023.
+
+\bibitem[Jaitly et~al.(2023)Jaitly, Shah, Shugani, and Grewal]{jaitly2023better}
+Jaitly, S., Shah, T., Shugani, A., and Grewal, R.~S.
+\newblock Towards better serialization of tabular data for few-shot classification with large language models, 2023.
+
+\bibitem[Ji et~al.(2023)Ji, Yu, Xu, Lee, Ishii, and Fung]{ji2023towards}
+Ji, Z., Yu, T., Xu, Y., Lee, N., Ishii, E., and Fung, P.
+\newblock Towards mitigating llm hallucination via self reflection.
+\newblock In \emph{Findings of the Association for Computational Linguistics: EMNLP 2023}, pp.\  1827--1843, 2023.
+
+\bibitem[Kadra et~al.(2021)Kadra, Lindauer, Hutter, and Grabocka]{kadra2021well}
+Kadra, A., Lindauer, M., Hutter, F., and Grabocka, J.
+\newblock Well-tuned simple nets excel on tabular datasets.
+\newblock \emph{Advances in neural information processing systems}, 34:\penalty0 23928--23941, 2021.
+
+\bibitem[Kan(2015)]{sf-crime}
+Kan, W.
+\newblock San francisco crime classification, 2015.
+\newblock URL \url{https://kaggle.com/competitions/sf-crime}.
+
+\bibitem[Kaplan et~al.(2020)Kaplan, McCandlish, Henighan, Brown, Chess, Child, Gray, Radford, Wu, and Amodei]{kaplan2020scaling}
+Kaplan, J., McCandlish, S., Henighan, T., Brown, T.~B., Chess, B., Child, R., Gray, S., Radford, A., Wu, J., and Amodei, D.
+\newblock Scaling laws for neural language models.
+\newblock \emph{arXiv preprint arXiv:2001.08361}, 2020.
+
+\bibitem[Ke et~al.(2017)Ke, Meng, Finley, Wang, Chen, Ma, Ye, and Liu]{ke2017lightgbm}
+Ke, G., Meng, Q., Finley, T., Wang, T., Chen, W., Ma, W., Ye, Q., and Liu, T.-Y.
+\newblock Lightgbm: A highly efficient gradient boosting decision tree.
+\newblock \emph{Advances in neural information processing systems}, 30, 2017.
+
+\bibitem[Kim et~al.(2024)Kim, Xu, McDuff, Breazeal, and Park]{kim2024health}
+Kim, Y., Xu, X., McDuff, D., Breazeal, C., and Park, H.~W.
+\newblock Health-llm: Large language models for health prediction via wearable sensor data.
+\newblock \emph{arXiv preprint arXiv:2401.06866}, 2024.
+
+\bibitem[Kojima et~al.(2022)Kojima, Gu, Reid, Matsuo, and Iwasawa]{kojima2022large}
+Kojima, T., Gu, S.~S., Reid, M., Matsuo, Y., and Iwasawa, Y.
+\newblock Large language models are zero-shot reasoners.
+\newblock \emph{Advances in neural information processing systems}, 35:\penalty0 22199--22213, 2022.
+
+\bibitem[Lan et~al.(2019)Lan, Chen, Goodman, Gimpel, Sharma, and Soricut]{lan2019albert}
+Lan, Z., Chen, M., Goodman, S., Gimpel, K., Sharma, P., and Soricut, R.
+\newblock Albert: A lite bert for self-supervised learning of language representations.
+\newblock \emph{arXiv preprint arXiv:1909.11942}, 2019.
+
+\bibitem[Lee \& Lindsey(2024)Lee and Lindsey]{lee2024large}
+Lee, S.~A. and Lindsey, T.
+\newblock Do large language models understand medical codes?
+\newblock \emph{arXiv preprint arXiv:2403.10822}, 2024.
+
+\bibitem[Lee et~al.(2024{\natexlab{a}})Lee, Jain, Chen, Biswas, Fang, Rudas, and Chiang]{lee2024multimodal}
+Lee, S.~A., Jain, S., Chen, A., Biswas, A., Fang, J., Rudas, A., and Chiang, J.~N.
+\newblock Multimodal clinical pseudo-notes for emergency department prediction tasks using multiple embedding model for ehr (meme).
+\newblock \emph{arXiv preprint arXiv:2402.00160}, 2024{\natexlab{a}}.
+
+\bibitem[Lee et~al.(2024{\natexlab{b}})Lee, Jain, Chen, Ono, Fang, Rudas, and Chiang]{lee2024emergency}
+Lee, S.~A., Jain, S., Chen, A., Ono, K., Fang, J., Rudas, A., and Chiang, J.~N.
+\newblock Emergency department decision support using clinical pseudo-notes, 2024{\natexlab{b}}.
+
+\bibitem[Levin et~al.(2022)Levin, Cherepanova, Schwarzschild, Bansal, Bruss, Goldstein, Wilson, and Goldblum]{levin2022transfer}
+Levin, R., Cherepanova, V., Schwarzschild, A., Bansal, A., Bruss, C.~B., Goldstein, T., Wilson, A.~G., and Goldblum, M.
+\newblock Transfer learning with deep tabular models.
+\newblock \emph{arXiv preprint arXiv:2206.15306}, 2022.
+
+\bibitem[Lewis et~al.(2019)Lewis, Liu, Goyal, Ghazvininejad, Mohamed, Levy, Stoyanov, and Zettlemoyer]{lewis2019bart}
+Lewis, M., Liu, Y., Goyal, N., Ghazvininejad, M., Mohamed, A., Levy, O., Stoyanov, V., and Zettlemoyer, L.
+\newblock Bart: Denoising sequence-to-sequence pre-training for natural language generation, translation, and comprehension.
+\newblock \emph{arXiv preprint arXiv:1910.13461}, 2019.
+
+\bibitem[Li et~al.(2024)Li, Hui, Qu, Yang, Li, Li, Wang, Qin, Geng, Huo, et~al.]{li2024can}
+Li, J., Hui, B., Qu, G., Yang, J., Li, B., Li, B., Wang, B., Qin, B., Geng, R., Huo, N., et~al.
+\newblock Can llm already serve as a database interface? a big bench for large-scale database grounded text-to-sqls.
+\newblock \emph{Advances in Neural Information Processing Systems}, 36, 2024.
+
+\bibitem[Li et~al.(2023)Li, Zhang, Zhang, Long, Xie, and Zhang]{li2023towards}
+Li, Z., Zhang, X., Zhang, Y., Long, D., Xie, P., and Zhang, M.
+\newblock Towards general text embeddings with multi-stage contrastive learning.
+\newblock \emph{arXiv preprint arXiv:2308.03281}, 2023.
+
+\bibitem[Liu et~al.(2022)Liu, Tam, Muqeeth, Mohta, Huang, Bansal, and Raffel]{liu2022few}
+Liu, H., Tam, D., Muqeeth, M., Mohta, J., Huang, T., Bansal, M., and Raffel, C.~A.
+\newblock Few-shot parameter-efficient fine-tuning is better and cheaper than in-context learning.
+\newblock \emph{Advances in Neural Information Processing Systems}, 35:\penalty0 1950--1965, 2022.
+
+\bibitem[Liu et~al.(2019)Liu, Ott, Goyal, Du, Joshi, Chen, Levy, Lewis, Zettlemoyer, and Stoyanov]{liu2019roberta}
+Liu, Y., Ott, M., Goyal, N., Du, J., Joshi, M., Chen, D., Levy, O., Lewis, M., Zettlemoyer, L., and Stoyanov, V.
+\newblock Roberta: A robustly optimized bert pretraining approach.
+\newblock \emph{arXiv preprint arXiv:1907.11692}, 2019.
+
+\bibitem[Mayer \& Jacobsen(2020)Mayer and Jacobsen]{mayer2020scalable}
+Mayer, R. and Jacobsen, H.-A.
+\newblock Scalable deep learning on distributed infrastructures: Challenges, techniques, and tools.
+\newblock \emph{ACM Computing Surveys (CSUR)}, 53\penalty0 (1):\penalty0 1--37, 2020.
+
+\bibitem[Min et~al.(2024)Min, Hu, Jin, Lin, Chen, Chen, Li, Qi, Li, Li, et~al.]{min2024exploring}
+Min, D., Hu, N., Jin, R., Lin, N., Chen, J., Chen, Y., Li, Y., Qi, G., Li, Y., Li, N., et~al.
+\newblock Exploring the impact of table-to-text methods on augmenting llm-based question answering with domain hybrid data.
+\newblock \emph{arXiv preprint arXiv:2402.12869}, 2024.
+
+\bibitem[Muennighoff et~al.(2022)Muennighoff, Tazi, Magne, and Reimers]{muennighoff2022mteb}
+Muennighoff, N., Tazi, N., Magne, L., and Reimers, N.
+\newblock Mteb: Massive text embedding benchmark.
+\newblock \emph{arXiv preprint arXiv:2210.07316}, 2022.
+
+\bibitem[Niu et~al.(2020)Niu, Liu, Wang, and Song]{niu2020decade}
+Niu, S., Liu, Y., Wang, J., and Song, H.
+\newblock A decade survey of transfer learning (2010--2020).
+\newblock \emph{IEEE Transactions on Artificial Intelligence}, 1\penalty0 (2):\penalty0 151--166, 2020.
+
+\bibitem[Ojha \& Nicosia(2020)Ojha and Nicosia]{ojha2020multi}
+Ojha, V. and Nicosia, G.
+\newblock Multi-objective optimisation of multi-output neural trees.
+\newblock In \emph{2020 IEEE Congress on Evolutionary Computation (CEC)}, pp.\  1--8. IEEE, 2020.
+
+\bibitem[Pan \& Yang(2009)Pan and Yang]{pan2009survey}
+Pan, S.~J. and Yang, Q.
+\newblock A survey on transfer learning.
+\newblock \emph{IEEE Transactions on knowledge and data engineering}, 22\penalty0 (10):\penalty0 1345--1359, 2009.
+
+\bibitem[Perez et~al.(2021)Perez, Kiela, and Cho]{perez2021true}
+Perez, E., Kiela, D., and Cho, K.
+\newblock True few-shot learning with language models.
+\newblock \emph{Advances in neural information processing systems}, 34:\penalty0 11054--11070, 2021.
+
+\bibitem[Popov et~al.(2019)Popov, Morozov, and Babenko]{popov2019neural}
+Popov, S., Morozov, S., and Babenko, A.
+\newblock Neural oblivious decision ensembles for deep learning on tabular data.
+\newblock \emph{arXiv preprint arXiv:1909.06312}, 2019.
+
+\bibitem[Radford et~al.(2018)Radford, Narasimhan, Salimans, Sutskever, et~al.]{radford2018improving}
+Radford, A., Narasimhan, K., Salimans, T., Sutskever, I., et~al.
+\newblock Improving language understanding by generative pre-training.
+\newblock 2018.
+
+\bibitem[Radford et~al.(2019)Radford, Wu, Child, Luan, Amodei, Sutskever, et~al.]{radford2019language}
+Radford, A., Wu, J., Child, R., Luan, D., Amodei, D., Sutskever, I., et~al.
+\newblock Language models are unsupervised multitask learners.
+\newblock \emph{OpenAI blog}, 1\penalty0 (8):\penalty0 9, 2019.
+
+\bibitem[Radford et~al.(2021)Radford, Kim, Hallacy, Ramesh, Goh, Agarwal, Sastry, Askell, Mishkin, Clark, et~al.]{radford2021learning}
+Radford, A., Kim, J.~W., Hallacy, C., Ramesh, A., Goh, G., Agarwal, S., Sastry, G., Askell, A., Mishkin, P., Clark, J., et~al.
+\newblock Learning transferable visual models from natural language supervision.
+\newblock In \emph{International conference on machine learning}, pp.\  8748--8763. PMLR, 2021.
+
+\bibitem[Rouhani et~al.(2018)Rouhani, Riazi, and Koushanfar]{rouhani2018deepsecure}
+Rouhani, B.~D., Riazi, M.~S., and Koushanfar, F.
+\newblock Deepsecure: Scalable provably-secure deep learning.
+\newblock In \emph{Proceedings of the 55th annual design automation conference}, pp.\  1--6, 2018.
+
+\bibitem[Sahakyan et~al.(2021)Sahakyan, Aung, and Rahwan]{sahakyan2021explainable}
+Sahakyan, M., Aung, Z., and Rahwan, T.
+\newblock Explainable artificial intelligence for tabular data: A survey.
+\newblock \emph{IEEE access}, 9:\penalty0 135392--135422, 2021.
+
+\bibitem[Sanh et~al.(2019)Sanh, Debut, Chaumond, and Wolf]{sanh2019distilbert}
+Sanh, V., Debut, L., Chaumond, J., and Wolf, T.
+\newblock Distilbert, a distilled version of bert: smaller, faster, cheaper and lighter.
+\newblock \emph{arXiv preprint arXiv:1910.01108}, 2019.
+
+\bibitem[Sanh et~al.(2021)Sanh, Webson, Raffel, Bach, Sutawika, Alyafeai, Chaffin, Stiegler, Scao, Raja, et~al.]{sanh2021multitask}
+Sanh, V., Webson, A., Raffel, C., Bach, S.~H., Sutawika, L., Alyafeai, Z., Chaffin, A., Stiegler, A., Scao, T.~L., Raja, A., et~al.
+\newblock Multitask prompted training enables zero-shot task generalization.
+\newblock \emph{arXiv preprint arXiv:2110.08207}, 2021.
+
+\bibitem[Sarkar(2022)]{sarkar2022xbnet}
+Sarkar, T.
+\newblock Xbnet: An extremely boosted neural network.
+\newblock \emph{Intelligent Systems with Applications}, 15:\penalty0 200097, 2022.
+
+\bibitem[Shwartz-Ziv \& Armon(2022)Shwartz-Ziv and Armon]{shwartz2022tabular}
+Shwartz-Ziv, R. and Armon, A.
+\newblock Tabular data: Deep learning is not all you need.
+\newblock \emph{Information Fusion}, 81:\penalty0 84--90, 2022.
+
+\bibitem[Smith et~al.(1988)Smith, Everhart, Dickson, Knowler, and Johannes]{smith1988using}
+Smith, J.~W., Everhart, J.~E., Dickson, W., Knowler, W.~C., and Johannes, R.~S.
+\newblock Using the adap learning algorithm to forecast the onset of diabetes mellitus.
+\newblock In \emph{Proceedings of the annual symposium on computer application in medical care}, pp.\  261. American Medical Informatics Association, 1988.
+
+\bibitem[Somepalli et~al.(2021)Somepalli, Goldblum, Schwarzschild, Bruss, and Goldstein]{somepalli2021saint}
+Somepalli, G., Goldblum, M., Schwarzschild, A., Bruss, C.~B., and Goldstein, T.
+\newblock Saint: Improved neural networks for tabular data via row attention and contrastive pre-training.
+\newblock \emph{arXiv preprint arXiv:2106.01342}, 2021.
+
+\bibitem[Song et~al.(2023)Song, Xiong, Zhu, Li, Wang, Tian, and Li]{song2023restgpt}
+Song, Y., Xiong, W., Zhu, D., Li, C., Wang, K., Tian, Y., and Li, S.
+\newblock Restgpt: Connecting large language models with real-world applications via restful apis.
+\newblock \emph{arXiv preprint arXiv:2306.06624}, 2023.
+
+\bibitem[St et~al.(1989)St, Wold, et~al.]{st1989analysis}
+St, L., Wold, S., et~al.
+\newblock Analysis of variance (anova).
+\newblock \emph{Chemometrics and intelligent laboratory systems}, 6\penalty0 (4):\penalty0 259--272, 1989.
+
+\bibitem[Su et~al.(2019)Su, Xu, Winata, Xu, Kim, Liu, and Fung]{su2019generalizing}
+Su, D., Xu, Y., Winata, G.~I., Xu, P., Kim, H., Liu, Z., and Fung, P.
+\newblock Generalizing question answering system with pre-trained language model fine-tuning.
+\newblock In \emph{Proceedings of the 2nd workshop on machine reading for question answering}, pp.\  203--211, 2019.
+
+\bibitem[Sui et~al.(2024)Sui, Zhou, Zhou, Han, and Zhang]{sui2024table}
+Sui, Y., Zhou, M., Zhou, M., Han, S., and Zhang, D.
+\newblock Table meets llm: Can large language models understand structured table data? a benchmark and empirical study.
+\newblock In \emph{Proceedings of the 17th ACM International Conference on Web Search and Data Mining}, pp.\  645--654, 2024.
+
+\bibitem[Torrey \& Shavlik(2010)Torrey and Shavlik]{torrey2010transfer}
+Torrey, L. and Shavlik, J.
+\newblock Transfer learning.
+\newblock In \emph{Handbook of research on machine learning applications and trends: algorithms, methods, and techniques}, pp.\  242--264. IGI global, 2010.
+
+\bibitem[Trinh et~al.(2024)Trinh, Wu, Le, He, and Luong]{trinh2024solving}
+Trinh, T.~H., Wu, Y., Le, Q.~V., He, H., and Luong, T.
+\newblock Solving olympiad geometry without human demonstrations.
+\newblock \emph{Nature}, 625\penalty0 (7995):\penalty0 476--482, 2024.
+
+\bibitem[Vaswani et~al.(2017)Vaswani, Shazeer, Parmar, Uszkoreit, Jones, Gomez, Kaiser, and Polosukhin]{vaswani2017attention}
+Vaswani, A., Shazeer, N., Parmar, N., Uszkoreit, J., Jones, L., Gomez, A.~N., Kaiser, {\L}., and Polosukhin, I.
+\newblock Attention is all you need.
+\newblock \emph{Advances in neural information processing systems}, 30, 2017.
+
+\bibitem[Wang et~al.(2023)Wang, Ren, Zhou, Lu, Luo, Shi, Zhang, Song, Zhan, and Li]{wang2023mathcoder}
+Wang, K., Ren, H., Zhou, A., Lu, Z., Luo, S., Shi, W., Zhang, R., Song, L., Zhan, M., and Li, H.
+\newblock Mathcoder: Seamless code integration in llms for enhanced mathematical reasoning.
+\newblock \emph{arXiv preprint arXiv:2310.03731}, 2023.
+
+\bibitem[Webson \& Pavlick(2021)Webson and Pavlick]{webson2021prompt}
+Webson, A. and Pavlick, E.
+\newblock Do prompt-based models really understand the meaning of their prompts?
+\newblock \emph{arXiv preprint arXiv:2109.01247}, 2021.
+
+\bibitem[Wei et~al.(2021)Wei, Bosma, Zhao, Guu, Yu, Lester, Du, Dai, and Le]{wei2021finetuned}
+Wei, J., Bosma, M., Zhao, V.~Y., Guu, K., Yu, A.~W., Lester, B., Du, N., Dai, A.~M., and Le, Q.~V.
+\newblock Finetuned language models are zero-shot learners.
+\newblock \emph{arXiv preprint arXiv:2109.01652}, 2021.
+
+\bibitem[Weiss et~al.(2016)Weiss, Khoshgoftaar, and Wang]{weiss2016survey}
+Weiss, K., Khoshgoftaar, T.~M., and Wang, D.
+\newblock A survey of transfer learning.
+\newblock \emph{Journal of Big data}, 3:\penalty0 1--40, 2016.
+
+\bibitem[Wolf et~al.(2019)Wolf, Debut, Sanh, Chaumond, Delangue, Moi, Cistac, Rault, Louf, Funtowicz, et~al.]{wolf2019huggingface}
+Wolf, T., Debut, L., Sanh, V., Chaumond, J., Delangue, C., Moi, A., Cistac, P., Rault, T., Louf, R., Funtowicz, M., et~al.
+\newblock Huggingface's transformers: State-of-the-art natural language processing.
+\newblock \emph{arXiv preprint arXiv:1910.03771}, 2019.
+
+\bibitem[Xu et~al.(2023)Xu, Pang, Wang, and Wang]{xu2023deep}
+Xu, H., Pang, G., Wang, Y., and Wang, Y.
+\newblock Deep isolation forest for anomaly detection.
+\newblock \emph{IEEE Transactions on Knowledge and Data Engineering}, 2023.
+
+\bibitem[Yang et~al.(2024)Yang, Mishra, Chiang, and Mirzasoleiman]{yang2024smalltolarge}
+Yang, Y., Mishra, S., Chiang, J.~N., and Mirzasoleiman, B.
+\newblock Smalltolarge (s2l): Scalable data selection for fine-tuning large language models by summarizing training trajectories of small models.
+\newblock \emph{arXiv preprint arXiv:2403.07384}, 2024.
+
+\bibitem[Yang et~al.(2019)Yang, Dai, Yang, Carbonell, Salakhutdinov, and Le]{yang2019xlnet}
+Yang, Z., Dai, Z., Yang, Y., Carbonell, J., Salakhutdinov, R.~R., and Le, Q.~V.
+\newblock Xlnet: Generalized autoregressive pretraining for language understanding.
+\newblock \emph{Advances in neural information processing systems}, 32, 2019.
+
+\bibitem[Yao et~al.(2023)Yao, Zhang, Yan, and Tian]{yao2023sai}
+Yao, L., Zhang, Y., Yan, Z., and Tian, J.
+\newblock Sai: Solving ai tasks with systematic artificial intelligence in communication network.
+\newblock \emph{arXiv preprint arXiv:2310.09049}, 2023.
+
+\bibitem[Yin et~al.(2020)Yin, Neubig, Yih, and Riedel]{yin2020tabert}
+Yin, P., Neubig, G., Yih, W.-t., and Riedel, S.
+\newblock Tabert: Pretraining for joint understanding of textual and tabular data.
+\newblock \emph{arXiv preprint arXiv:2005.08314}, 2020.
+
+\bibitem[Zhang et~al.(2023)Zhang, Wen, Zheng, Xu, and Bian]{zhang2023towards}
+Zhang, H., Wen, X., Zheng, S., Xu, W., and Bian, J.
+\newblock Towards foundation models for learning on tabular data.
+\newblock \emph{arXiv preprint arXiv:2310.07338}, 2023.
+
+\bibitem[Zhang et~al.(2018)Zhang, Liu, Chaurasia, Ma, Mlodzianoski, Culurciello, and Huang]{zhang2018analyzing}
+Zhang, P., Liu, S., Chaurasia, A., Ma, D., Mlodzianoski, M.~J., Culurciello, E., and Huang, F.
+\newblock Analyzing complex single-molecule emission patterns with deep learning.
+\newblock \emph{Nature methods}, 15\penalty0 (11):\penalty0 913--916, 2018.
+
+\bibitem[Zhao et~al.(2021)Zhao, Wallace, Feng, Klein, and Singh]{zhao2021calibrate}
+Zhao, Z., Wallace, E., Feng, S., Klein, D., and Singh, S.
+\newblock Calibrate before use: Improving few-shot performance of language models.
+\newblock In \emph{International conference on machine learning}, pp.\  12697--12706. PMLR, 2021.
+
+\bibitem[Zhong et~al.(2021)Zhong, Lee, Zhang, and Klein]{zhong2021adapting}
+Zhong, R., Lee, K., Zhang, Z., and Klein, D.
+\newblock Adapting language models for zero-shot learning by meta-tuning on dataset and prompt collections.
+\newblock \emph{arXiv preprint arXiv:2104.04670}, 2021.
+
+\bibitem[Zhuang et~al.(2020)Zhuang, Qi, Duan, Xi, Zhu, Zhu, Xiong, and He]{zhuang2020comprehensive}
+Zhuang, F., Qi, Z., Duan, K., Xi, D., Zhu, Y., Zhu, H., Xiong, H., and He, Q.
+\newblock A comprehensive survey on transfer learning.
+\newblock \emph{Proceedings of the IEEE}, 109\penalty0 (1):\penalty0 43--76, 2020.
+
+\end{thebibliography}

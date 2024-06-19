@@ -1,4 +1,4 @@
-\begin{thebibliography}{100}
+\begin{thebibliography}{101}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -259,14 +259,19 @@ Lee, S.~A. and Lindsey, T.
 \newblock Do large language models understand medical codes?
 \newblock \emph{arXiv preprint arXiv:2403.10822}, 2024.
 
-\bibitem[Lee et~al.(2024{\natexlab{a}})Lee, Jain, Chen, Biswas, Fang, Rudas, and Chiang]{lee2024multimodal}
+\bibitem[Lee et~al.(2024{\natexlab{a}})Lee, Brokowski, and Chiang]{lee2024enhancing}
+Lee, S.~A., Brokowski, T., and Chiang, J.~N.
+\newblock Enhancing antibiotic stewardship using a natural language approach for better feature representation.
+\newblock \emph{arXiv preprint arXiv:2405.20419}, 2024{\natexlab{a}}.
+
+\bibitem[Lee et~al.(2024{\natexlab{b}})Lee, Jain, Chen, Biswas, Fang, Rudas, and Chiang]{lee2024multimodal}
 Lee, S.~A., Jain, S., Chen, A., Biswas, A., Fang, J., Rudas, A., and Chiang, J.~N.
 \newblock Multimodal clinical pseudo-notes for emergency department prediction tasks using multiple embedding model for ehr (meme).
-\newblock \emph{arXiv preprint arXiv:2402.00160}, 2024{\natexlab{a}}.
+\newblock \emph{arXiv preprint arXiv:2402.00160}, 2024{\natexlab{b}}.
 
-\bibitem[Lee et~al.(2024{\natexlab{b}})Lee, Jain, Chen, Ono, Fang, Rudas, and Chiang]{lee2024emergency}
+\bibitem[Lee et~al.(2024{\natexlab{c}})Lee, Jain, Chen, Ono, Fang, Rudas, and Chiang]{lee2024emergency}
 Lee, S.~A., Jain, S., Chen, A., Ono, K., Fang, J., Rudas, A., and Chiang, J.~N.
-\newblock Emergency department decision support using clinical pseudo-notes, 2024{\natexlab{b}}.
+\newblock Emergency department decision support using clinical pseudo-notes, 2024{\natexlab{c}}.
 
 \bibitem[Levin et~al.(2022)Levin, Cherepanova, Schwarzschild, Bansal, Bruss, Goldstein, Wilson, and Goldblum]{levin2022transfer}
 Levin, R., Cherepanova, V., Schwarzschild, A., Bansal, A., Bruss, C.~B., Goldstein, T., Wilson, A.~G., and Goldblum, M.
